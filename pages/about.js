@@ -14,11 +14,11 @@ class AboutPage extends Component {
         <Header />
         <section>
           <p>
-            This is another page of the SSR example, you accessed it{" "}
-            <strong>{this.props.isServer ? "server" : "client"} side</strong>.
+            This is another page of the SSR example, you accessed via a {" "}
+            <strong>{this.props.isServer ? "server" : "client"} request</strong>.
           </p>
           <p>
-            You can reload to see how the page changes.
+            You can reload to see how the page changes. These are some more changes to test.
           </p>
           <Link href="/">
             <a>Go to Home</a>
