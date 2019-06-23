@@ -1,1 +1,11 @@
-{"version":2,"name":"nextjs-sample","builds":[{"src":"package.json","use":"@now/next"}]}
+{
+    "version": 2,
+    "name": "nextjs-sample",
+    "alias": ["vrstore.janshah.now.sh"],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ]
+}
